@@ -1,0 +1,16 @@
+{
+    "NAME": "Riya Verma",
+    "ABOUT_ME": "Hello, I'm a student 😼",
+    "LANGUAGES": [
+               "Python",
+                "Java script",
+                "C++"
+       ],
+
+    "PROJECTS": [
+            ["filter_drama","Google","Amazing"],
+            ["place","Youtube","Marvelous"],
+            ["whatshot","GMail","Wonderful"]
+    ]       
+}
+

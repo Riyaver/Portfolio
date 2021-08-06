@@ -1,0 +1,23 @@
+{% extends 'main/base.html' %}
+
+{% block content %}
+   {% include 'main/nav.html' %}  <!-- for thet logo imp-->
+
+
+    <div class="progress">
+      <div class="determinate" style = "width:100%"></div>
+    </div>
+
+    <div class="container">
+        <h1 class="center-align"> Languages that I love.....</h1>
+        <div class="row">
+            <ul class="collection">
+                {% for language in Languages %}
+                  <li class="collection-item">{{ language }}</li>
+                {% endfor %}
+            </ul>
+
+        </div>
+    </div>
+
+{% endblock %}
